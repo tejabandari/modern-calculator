@@ -58,3 +58,10 @@ button {
 button:hover {
     background-color: rgb(189, 189, 189);
 }
+
+@media (max-width: 480px) {
+    .calculator {
+        grid-template-columns: repeat(4, minmax(80px,auto));
+        grid-template-rows: minmax(120px,auto) repeat(5,80px);
+    }
+}
